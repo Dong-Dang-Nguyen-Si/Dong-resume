@@ -2,18 +2,13 @@
 
 <!-- WORKSHOP: Answer the questions below in plain English. Replace each question with your own answer. Keep each answer short. Delete any question you cannot answer; never invent projects, skills or links. Do not ask the agent to build until you have filled this in. -->
 
-- **Who I am:** What is your name, what do you study or do, and where?
-- **Audience and goal:** Who do you want to visit your portfolio, and what should they learn about you?
-- **About me:** In 1–2 sentences, what interests you or what do you enjoy building?
-- **Sections:** Which sections do you want? Choose only ones you have content for (Home, About, Projects, Skills, Contact, Resume).
-- **Projects:** What 1–3 real projects do you want to show? Put each one on its own line below: name, what it does, and a link if you have one. If you have no projects yet, delete this question.
-  - Project 1: name / what it does / link (optional)
-  - Project 2: name / what it does / link (optional)
-- **Skills:** Which tools, languages or skills have you actually used?
-- **Contact:** Which email, GitHub or LinkedIn link should visitors use? Include only links you want public.
-- **Vibe and feel:** Which ONE vibe do you want? What 2–3 words describe the feel (for example: calm, bold, playful)?
-  - For your major: `vibe-cad-workspace` (mechanical), `vibe-oscilloscope` (electrical), `vibe-pcb` (computer engineering), `vibe-git-graph` (CS), `vibe-ide` (CS), `vibe-system-design` (software engineering), `vibe-site-plan` (civil), `vibe-mission-control` (space engineering), `vibe-topographic` (geomatics), `vibe-research-paper` (science), `vibe-pitch-deck` (business)
-  - For anyone: `vibe-terminal`, `vibe-editorial`, `vibe-swiss-minimal`, `vibe-brutalist`, `vibe-soft-pastel`, `vibe-notebook`, `vibe-pixel`, `vibe-blueprint`, `vibe-y2k-web`
-  - Expressive: `vibe-kinetic-type`, `vibe-glitch`, `vibe-cinematic`, `vibe-depth`
-  - Take-home (uses a library, best with a strong agent): `vibe-scroll-film`, `vibe-shader-world`, `vibe-3d-room`
-- **Optional files:** Are you including a photo or résumé? If so, put them in `public/assets/` (create the folder if it is missing) and write their filenames here. Otherwise, delete this line.
+- **Who I am:** Dang Nguyen Si Dong (Dong Dang Nguyen Si), third-year Civil Engineering undergraduate student at York University.
+- **Audience and goal:** PhD admissions and academic researchers in Geotechnical and Computational Engineering. The goal is to demonstrate a strong foundation in mathematics (calculus, linear algebra) and deep computational capability in Python, AI, and robotics.
+- **About me:** I aspire to become a geotechnical researcher and engineer focused on advancing computational methods for underground infrastructure and transportation. Alongside civil engineering, I independently study and engineer AI and robotics systems from first principles.
+- **Sections:** Home, About, Projects, Skills, Contact.
+- **Projects:** 
+  - Predictive Modeling of Chlorine Decay & Disinfection Byproducts using PINN: Implemented a Physics-Informed Neural Network (PINN) architecture in Python and PyTorch to solve inverse problems for reactive transport and chemical kinetic parameters in water distribution networks. Embedded governing differential equations directly into the loss objective to enforce physical mass-conservation constraints under sparse and noisy boundary data.
+  - UR5 Manipulator Forward Dynamics Simulation Engine: Formulated equations of motion for a 6-DOF UR5 manipulator using the Recursive Newton-Euler Algorithm (RNEA) and Lie group formulations (SE(3)) to eliminate geometric representation singularities. Derived spatial inertia matrices, joint twists, and dynamic equations of motion, coupled with CoppeliaSim physics simulations to validate torque-driven trajectory execution.
+- **Skills:** Python, PyTorch, Physics-Informed Neural Networks (PINN), NumPy, SciPy, Pandas, Matplotlib, OpenCV, Streamlit, CoppeliaSim, Linux, Git/GitHub, AutoCAD, SAP2000.
+- **Contact:** dongdangnguyensi@gmail.com; LinkedIn: https://linkedin.com/in/dong-dang-nguyen-si; GitHub: https://github.com/Dong-Dang-Nguyen-Si.
+- **Vibe and feel:** `vibe-site-plan`: A clean civil engineering drawing set with pale plan-sheet aesthetics, graphite linework, ground lines with earth hatching, and section-cut reveals.

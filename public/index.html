@@ -3,12 +3,106 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>My portfolio</title>
+  <title>Dong Dang Nguyen Si | Civil Engineering &amp; Computational Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;600;800&family=Overpass+Mono:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
+  <header class="site-header">
+    <a class="brand" href="#home">Dong Dang Nguyen Si</a>
+    <nav class="site-nav" aria-label="Sections">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
   <main>
-    <h1>Your portfolio starts here</h1>
-    <p>Fill in SPEC.md, then ask the agent to build your site.</p>
+    <section class="hero" id="home" aria-labelledby="home-title">
+      <svg class="north" viewBox="0 0 48 52" aria-hidden="true" focusable="false">
+        <text x="24" y="9" text-anchor="middle" font-size="10" font-weight="700" font-family="Overpass Mono, monospace" fill="currentColor">N</text>
+        <circle cx="24" cy="32" r="17" fill="none" stroke="currentColor" stroke-width="2"/>
+        <path d="M24 13 L24 36 L17 41 Z" fill="currentColor"/>
+        <path d="M24 13 L31 41 L24 36" fill="none" stroke="currentColor" stroke-width="2"/>
+      </svg>
+      <h1 id="home-title" class="hero-name">Dong Dang Nguyen Si</h1>
+      <p class="hero-intro">Third-year Civil Engineering undergraduate student at York University.</p>
+    </section>
+
+    <section id="about" aria-labelledby="about-title">
+      <h2 id="about-title">About</h2>
+      <p>I aspire to become a geotechnical researcher and engineer focused on advancing computational methods for underground infrastructure and transportation systems.</p>
+      <p>Alongside my civil engineering coursework, I independently study and engineer artificial intelligence and robotics from first principles, building applied mathematical models with physics constraints.</p>
+    </section>
+
+    <section id="projects" aria-labelledby="projects-title">
+      <h2 id="projects-title">Projects</h2>
+      <div class="plans">
+        <article class="plan">
+          <header class="plan-head">
+            <span class="cut-tag" aria-hidden="true">A–A</span>
+            <h3>Predictive Modeling of Chlorine Decay &amp; Disinfection Byproducts using PINN</h3>
+          </header>
+          <div class="cut">
+            <div class="cut-body">
+              <p>Implemented a Physics-Informed Neural Network (PINN) architecture in Python and PyTorch to solve inverse problems for reactive transport and chemical kinetic parameters in water distribution networks. Embedded governing differential equations directly into the loss objective to enforce physical mass-conservation constraints under sparse and noisy boundary data.</p>
+            </div>
+            <span class="cut-line" data-cut="A" aria-hidden="true"></span>
+          </div>
+        </article>
+
+        <article class="plan">
+          <header class="plan-head">
+            <span class="cut-tag" aria-hidden="true">B–B</span>
+            <h3>UR5 Manipulator Forward Dynamics Simulation Engine</h3>
+          </header>
+          <div class="cut">
+            <div class="cut-body">
+              <p>Formulated equations of motion for a 6-DOF UR5 manipulator using the Recursive Newton-Euler Algorithm (RNEA) and Lie group formulations (SE(3)) to eliminate geometric representation singularities. Derived spatial inertia matrices, joint twists, and dynamic equations of motion, coupled with CoppeliaSim physics simulations to validate torque-driven trajectory execution.</p>
+            </div>
+            <span class="cut-line" data-cut="B" aria-hidden="true"></span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" aria-labelledby="skills-title">
+      <h2 id="skills-title">Skills</h2>
+      <ul class="legend">
+        <li>Python</li>
+        <li>PyTorch</li>
+        <li>PINN</li>
+        <li>NumPy &amp; SciPy</li>
+        <li>Pandas &amp; Matplotlib</li>
+        <li>OpenCV</li>
+        <li>Streamlit</li>
+        <li>CoppeliaSim</li>
+        <li>Linux</li>
+        <li>Git / GitHub</li>
+        <li>AutoCAD</li>
+        <li>SAP2000</li>
+      </ul>
+    </section>
+
+    <section id="contact" aria-labelledby="contact-title">
+      <h2 id="contact-title">Contact</h2>
+      <ul class="notes">
+        <li><a class="text-link" href="mailto:dongdangnguyensi@gmail.com">dongdangnguyensi@gmail.com</a></li>
+        <li><a class="text-link" href="https://linkedin.com/in/dong-dang-nguyen-si" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+        <li><a class="text-link" href="https://github.com/Dong-Dang-Nguyen-Si" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+      </ul>
+    </section>
   </main>
+
+  <footer class="site-footer">
+    <a class="text-link" href="#home">Back to top</a>
+  </footer>
 </body>
 </html>
